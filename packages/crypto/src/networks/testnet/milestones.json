@@ -7,9 +7,9 @@
         "block": {
             "version": 0,
             "maxTransactions": 150,
-            "maxPayload": 2097152
+            "maxPayload": 6291456
         },
-        "epoch": "2017-03-21T13:00:00.000Z",
+        "epoch": "2019-12-11T10:51:51.238Z",
         "fees": {
             "staticFees": {
                 "transfer": 10000000,
@@ -17,27 +17,16 @@
                 "delegateRegistration": 2500000000,
                 "vote": 100000000,
                 "multiSignature": 500000000,
-                "ipfs": 500000000,
+                "ipfs": 0,
                 "timelockTransfer": 0,
                 "multiPayment": 0,
-                "delegateResignation": 2500000000
+                "delegateResignation": 0
             }
         },
-        "vendorFieldLength": 64,
-        "aip11": true
+        "vendorFieldLength": 255
     },
     {
         "height": 75600,
         "reward": 200000000
-    },
-    {
-        "height": 100000,
-        "vendorFieldLength": 255
-    },
-    {
-        "height": 1000000000,
-        "block": {
-            "idFullSha256": true
-        }
     }
 ]

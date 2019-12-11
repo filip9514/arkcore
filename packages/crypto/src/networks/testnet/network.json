@@ -1,18 +1,18 @@
 {
     "name": "testnet",
-    "messagePrefix": "TEST message:\n",
+    "messagePrefix": "MYBRIDGECHAIN message:\n",
     "bip32": {
         "public": 70617039,
         "private": 70615956
     },
-    "pubKeyHash": 23,
-    "nethash": "d9acd04bde4234a81addb8482333b4ac906bed7be5a9970ce8ada428bd083192",
-    "wif": 186,
+    "pubKeyHash": 65,
+    "nethash": "6f84dc0f88071931d3f550e383a6d20d7d01db19041da981eae74fd121bf25d1",
+    "wif": 116,
     "slip44": 1,
     "aip20": 0,
     "client": {
-        "token": "TARK",
-        "symbol": "TѦ",
-        "explorer": "http://texplorer.ark.io"
+        "token": "MYBRIDGECHAIN",
+        "symbol": "MB",
+        "explorer": "http://34.241.133.225:4200"
     }
 }
