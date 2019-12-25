@@ -1,18 +1,18 @@
 {
-    "name": "devnet",
-    "messagePrefix": "MYBRIDGECHAIN message:\n",
-    "bip32": {
-        "public": 46090600,
-        "private": 46089520
-    },
-    "pubKeyHash": 30,
-    "nethash": "db38920f897891181a04e48740361147b17d495cb6f504687f757c8735b5ec2e",
-    "wif": 86,
-    "slip44": 1,
-    "aip20": 1,
-    "client": {
-        "token": "MYBRIDGECHAIN",
-        "symbol": "MB",
-        "explorer": "http://34.240.96.210:4200"
-    }
+  "name": "devnet",
+  "messagePrefix": "MYBRIDGECHAIN message:\n",
+  "bip32": {
+    "public": 46090600,
+    "private": 46089520
+  },
+  "pubKeyHash": 30,
+  "nethash": "86f8d21663ecbb3c074a0fe377c808b1a1951dde47e19b582aa6c2d96b33d12d",
+  "wif": 118,
+  "slip44": 1,
+  "aip20": 1,
+  "client": {
+    "token": "MYBRIDGECHAIN",
+    "symbol": "MB",
+    "explorer": "http://34.244.175.143:4200"
+  }
 }

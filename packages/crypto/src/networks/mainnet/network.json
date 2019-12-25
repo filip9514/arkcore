@@ -1,18 +1,18 @@
 {
-    "name": "mainnet",
-    "messagePrefix": "MYBRIDGECHAIN message:\n",
-    "bip32": {
-        "public": 46090600,
-        "private": 46089520
-    },
-    "pubKeyHash": 50,
-    "nethash": "fba0396130e9e92ac149e4526d94b852b4be4be65b197761cc718ac393346d00",
-    "wif": 104,
-    "slip44": 111,
-    "aip20": 0,
-    "client": {
-        "token": "MYBRIDGECHAIN",
-        "symbol": "MB",
-        "explorer": "http://34.240.96.210:4200"
-    }
+  "name": "mainnet",
+  "messagePrefix": "MYBRIDGECHAIN message:\n",
+  "bip32": {
+    "public": 46090600,
+    "private": 46089520
+  },
+  "pubKeyHash": 50,
+  "nethash": "402aa8ff7daa77a96703c05720f1b324ed259854208344ecc4887d2584af566e",
+  "wif": 240,
+  "slip44": 111,
+  "aip20": 0,
+  "client": {
+    "token": "MYBRIDGECHAIN",
+    "symbol": "MB",
+    "explorer": "http://34.244.175.143:4200"
+  }
 }
