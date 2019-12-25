@@ -205,18 +205,18 @@ success "Installed system updates!"
 
 heading "Installing ARK Core..."
 
-while ! yarn global add @arkecosystem/core ; do
-    read -p "Installing ARK Core failed, do you want to retry? [y/N]: " choice
-    if [[ ! "$choice" =~ ^(yes|y|Y) ]] ; then
-        exit 1
-    fi
-done
+# while ! yarn global add @arkecosystem/core ; do
+#    read -p "Installing ARK Core failed, do you want to retry? [y/N]: " choice
+#    if [[ ! "$choice" =~ ^(yes|y|Y) ]] ; then
+#        exit 1
+#    fi
+# done
 
 echo 'export PATH=$(yarn global bin):$PATH' >> ~/.bashrc
 export PATH=$(yarn global bin):$PATH
-ark config:publish
+~/core-bridgechain/packages/core/bin/run config:publish
 
-success "Installed ARK Core!"
+success "Installed Core!"
 
 readNonempty() {
     prompt=${1}
@@ -243,9 +243,9 @@ if [[ "$choice" =~ ^(yes|y|Y) ]]; then
         read -p "Proceed? [y/N]: " choice
     done
 
-    ark env:set CORE_DB_USERNAME "${databaseUsername}"
-    ark env:set CORE_DB_PASSWORD "${databasePassword}"
-    ark env:set CORE_DB_DATABASE "${databaseName}"
+   ~/core-bridgechain/packages/core/bin/run  env:set CORE_DB_USERNAME "${databaseUsername}"
+   ~/core-bridgechain/packages/core/bin/run  env:set CORE_DB_PASSWORD "${databasePassword}"
+   ~/core-bridgechain/packages/core/bin/run  env:set CORE_DB_DATABASE "${databaseName}"
 
     userExists=$(sudo -i -u postgres psql -tAc "SELECT 1 FROM pg_user WHERE usename = '${databaseUsername}'")
     databaseExists=$(sudo -i -u postgres psql -tAc "SELECT 1 FROM pg_database WHERE datname = '${databaseName}'")
