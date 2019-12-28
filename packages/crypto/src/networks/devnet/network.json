@@ -6,13 +6,13 @@
     "private": 46089520
   },
   "pubKeyHash": 30,
-  "nethash": "86f8d21663ecbb3c074a0fe377c808b1a1951dde47e19b582aa6c2d96b33d12d",
-  "wif": 118,
+  "nethash": "e3733e100a667912926ab870cdbdf6f96632d6ac326923600d9737eb008dbf57",
+  "wif": 138,
   "slip44": 1,
   "aip20": 1,
   "client": {
     "token": "MYBRIDGECHAIN",
     "symbol": "MB",
-    "explorer": "http://34.244.175.143:4200"
+    "explorer": "http://127.0.0.1:4200"
   }
 }
