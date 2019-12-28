@@ -1,18 +1,18 @@
 {
   "name": "testnet",
-  "messagePrefix": "MYBRIDGECHAIN message:\n",
+  "messagePrefix": "BRCHAIN message:\n",
   "bip32": {
     "public": 70617039,
     "private": 70615956
   },
   "pubKeyHash": 65,
-  "nethash": "b159fabcfe919b52d965120211361ebe630c2496a7afe2b1ceeec7adb1118ae9",
-  "wif": 14,
+  "nethash": "fa9cc89d2335bce51f5b5e7d4a051ef1c74f9e9db4c03ffd14004a1d6712a25f",
+  "wif": 146,
   "slip44": 1,
   "aip20": 0,
   "client": {
-    "token": "MYBRIDGECHAIN",
+    "token": "BRCHAIN",
     "symbol": "MB",
-    "explorer": "http://127.0.0.1:4200"
+    "explorer": "http://63.34.36.91:4200"
   }
 }
